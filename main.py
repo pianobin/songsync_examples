@@ -39,17 +39,5 @@ def main():
         spotify_playlist_name=spotify_playlist_name,
     )
 
-
-pip install songsync 
-
-from songsync.songsync import SongSync
-
-ss = SongSync()
-
-spotify_playlist_id, tracks_not_found = ss.convert_yt_spotify(
-    yt_playlist_id="PLkZa6xWYS81W6wdF6HSpuqOuVCgu9mzjD",
-    spotify_playlist_name="RADWIMPS",
-)
-
 if __name__ == "__main__":
     main()
