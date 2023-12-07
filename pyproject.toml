@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "songsync-examples"
+version = "0.1.0"
+description = ""
+authors = ["pianobin <shoji@pianobin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+songsync = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
